@@ -11,3 +11,9 @@ window.addEventListener("load", () => {
         casaImg.remove();
     });
 })
+
+function escreverNome()  {
+    escreverNome.innerHtml = "Egle Farias";
+}
+
+window.onload = escreverNome;

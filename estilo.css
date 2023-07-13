@@ -1,27 +1,66 @@
-.vermelho {
-    color: blue;
+/* NOVOS ESTILOS */
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-
-#ggg-img {
-    width: 2%;
-    height: 100%;
-    border: 5px solid green;
-}
-
 body {
-    width: 100%;
-    height: 100%;
+  background: rgb(104, 141, 163);
+  font-family: Arial, sans-serif;
+  color: #e5e2e2;
 }
-
-#container-principal {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-
-   
+#page {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
-
-#container-principal div {
-    flex: 1;
+#container {
+  width: 900px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#topo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  border: 1px solid red;
+}
+#foto-topo {
+  width: 100%;
+  height: 300px;
+}
+nav {
+  width: 100%;
+  background-color: #5D240A;
+}
+nav ul {
+  list-style:none;
+  margin:10;
+  padding:4px 
+}
+nav ul li {
+  display:inline-block 
+}
+nav ul li a {
+  font-size: 0.95em;
+  text-decoration: none;
+  color: #FFF;
+  padding: 4px 20px 
+}
+/*Ao passar o mouse muda a cor*/
+nav ul li a:hover {
+  background-color: #B4531A 
+}
+#casas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
