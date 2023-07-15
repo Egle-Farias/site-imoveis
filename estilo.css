@@ -6,10 +6,13 @@ body, html {
   padding: 0;
 }
 body {
-  background: rgb(104, 141, 163);
+  background: rgb(117, 131, 139);
   font-family: Arial, sans-serif;
-  color: #e5e2e2;
+  color: #000e;
+  
 }
+
+
 #page {
   display: flex;
   width: 100%;
@@ -23,19 +26,20 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-}
+  }
 #topo {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 500px;
-  border: 1px solid red;
+  height: 356px;
+  border: 1px solid rgb(69, 10, 15);
 }
 #foto-topo {
   width: 100%;
   height: 300px;
 }
+
 nav {
   width: 100%;
   background-color: #5D240A;
@@ -58,9 +62,51 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #B4531A 
 }
+
 #casas {
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+  justify-content: center;
+   flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+
+.top-row, .bottom-row {
+  display: center;
+  justify-content: center;
+ 
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+
+/*.flex > div {
+  flex: 1 1 200px;
+  margin: 200px;
+}*/
+
+
+.roda-pe {
+  color: rgb(23, 2, 2);
+  flex-wrap: wrap;
+}
+
+#quadros {
+  max-width: 100px;
+  text-align: center;
+  flex-wrap: 300px;
+  padding: 100px;
+  flex-shrink: 0; 
+  margin: 20px solid 10px;
+  color: rgb(140, 8, 8);
+  background-color: rgb(153, 201, 185);
+  
 }
