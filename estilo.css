@@ -4,14 +4,13 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
+ 
 }
 body {
   background: rgb(117, 131, 139);
   font-family: Arial, sans-serif;
   color: #000e;
-  
 }
-
 
 #page {
   display: flex;
@@ -22,55 +21,60 @@ body {
   padding: 0;
 }
 #container {
-  width: 900px;
+  width: 965px;
   height: 100%;
   margin: 0;
   padding: 0;
+  border: 1px solid;
+  background-color: rgb(232, 212, 205);
   }
+
 #topo {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 356px;
-  border: 1px solid rgb(69, 10, 15);
+  height: 255px;
 }
+
 #foto-topo {
   width: 100%;
-  height: 300px;
+  height: 200px;
+  margin: 0;
 }
 
 nav {
   width: 100%;
+  height: 40px;
   background-color: #5D240A;
+  margin: 0;
 }
 nav ul {
   list-style:none;
-  margin:10;
-  padding:4px 
+  margin:10px;
+  padding:0px; 
 }
 nav ul li {
-  display:inline-block 
+  display:inline-block; 
 }
 nav ul li a {
   font-size: 0.95em;
   text-decoration: none;
   color: #FFF;
-  padding: 4px 20px 
+  padding: 4px 20px;
 }
 /*Ao passar o mouse muda a cor*/
 nav ul li a:hover {
-  background-color: #B4531A 
+  background-color: #B4531A; 
 }
 
 #casas {
   text-align: center;
   display: flex;
   justify-content: center;
-   flex-wrap: wrap;
+  flex-wrap: wrap;
   max-width: 600px;
   margin: 0 auto;
-  
 }
 
 .top-row, .bottom-row {
@@ -96,17 +100,17 @@ img {
 
 .roda-pe {
   color: rgb(23, 2, 2);
-  flex-wrap: wrap;
+  
+  
+ 
 }
 
 #quadros {
   max-width: 100px;
   text-align: center;
-  flex-wrap: 300px;
   padding: 100px;
-  flex-shrink: 0; 
-  margin: 20px solid 10px;
   color: rgb(140, 8, 8);
   background-color: rgb(153, 201, 185);
+
   
 }
