@@ -15,7 +15,7 @@ body {
 #page {
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 318%;
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -68,49 +68,35 @@ nav ul li a:hover {
   background-color: #B4531A; 
 }
 
-#casas {
+
+.flex {
   text-align: center;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
-}
+  }
 
-.top-row, .bottom-row {
-  display: center;
-  justify-content: center;
- 
+.flex > div {
+  flex: 1 1 200px;
+  margin: 10px;
 }
-
 
 img {
   max-width: 100%;
   display: block;
-  width: 250px;
+  width: 350px;
   height: 250px;
   margin: 10px;
+  
 }
 
-/*.flex > div {
-  flex: 1 1 200px;
-  margin: 200px;
-}*/
 
-
-.roda-pe {
-  color: rgb(23, 2, 2);
-  
-  
+.rodape {
  
 }
 
-#quadros {
-  max-width: 100px;
-  text-align: center;
-  padding: 100px;
-  color: rgb(140, 8, 8);
-  background-color: rgb(153, 201, 185);
-
-  
+.quadros {
+  flex: 1 1 200px;
+  margin: 10px;
 }
