@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 215, 209);
+   
+}
+
+#cabecalho {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+
+#topo {
+    height: 100%;
+    width: 60%;
+    margin-bottom: 0;
+}
+
+img {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+}
+
+#foto-topo {.
+    
+    height: 50px;
+}
+
+
+nav {
+    width: 100%;
+    height: 50%;
+    background-color: #5D240A;
+    font-size: 16px;
+    margin-top: 0;
+}
+  
+
+nav ul {
+    list-style:none;
+    margin:0px;
+    padding:10px; 
+}
+
+  nav ul li {
+    display:inline-block; 
+}
+
+  nav ul li a {
+    font-size: 0.95em;
+    text-decoration: none;
+    color: #FFF;
+    padding: 4px 10px;
+}
+  
+  nav ul li a:hover {
+    background-color: #B4531A; 
+}
+  
+
+#menu {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+}
+
+#principal {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.flex {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    float: center;
+}
+  
+.flex > div {
+    flex: 1 1 30%;
+    margin: 10px;
+}
+
+#lado {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+  
+}
+
+
+#rodape {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(189, 229, 219);
+    margin: 0 0 auto;
+    padding-top: 30px;
+   
+   
+}
+
+.flex2 {
+    flex: 1 1 50%;
+}
+
