@@ -1,115 +1,133 @@
-/* NOVOS ESTILOS */
-body, html {
-    background-color: antiquewhite;
- 
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  float: center; 
-  align-items: center;
-  font-family: Arial, sans-serif;
-  color: #000e;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 215, 209);
   
+   
 }
 
-#container {
-  display: none;
-  width: 100%;
-  margin: 0;
-  background-color: blue;
-  text-align: center;
-
-  border: 2px solid green;
+#cabecalho {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    background-color: blanchedalmond;
 }
-
-#page {
-  display: center;
-  justify-content: center;
-  float: center;
-  align-content: left;
-  text-align: center;
-}
-
-
 
 #topo {
-  display: center;
-  flex-direction: center;
-  align-items: center;
-  width: 100%;
-  height: 0;
-  justify-content: center;
-  border: 2px solid blue;
-}
-
-#foto-topo {
-  width: 100%;
-  height: 0;
-  margin: 0;
-}
-
-nav {
-  width: 100%;
-  height: 40px;
-  background-color: #5D240A;
-  border: 3px solid #054111;
-
-}
-nav ul {
-  list-style:none;
-  margin:0px;
-  padding:10px; 
-}
-nav ul li {
-  display:inline-block; 
-}
-nav ul li a {
-  font-size: 0.95em;
-  text-decoration: none;
-  color: #FFF;
-  padding: 4px 20px;
-}
-
-nav ul li a:hover {
-  background-color: #B4531A; 
-}
-
-
-.flex {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 800px;
-  float: flex;
-  }
-
-.flex > div {
-  flex: 1 1 300px;
-  margin: 10px;
+    height: 100%;
+    width: 60%;
+    margin-bottom: 0;
 }
 
 img {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+}
+
+#foto-topo {.
+    
+    height: 50px;
+}
+
+
+nav {
+    width: 100%;
+    height: 50%;
+    background-color: #5D240A;
+    font-size: 16px;
+    margin-top: 0;
+}
   
-  display: center;
-  width: 100%;
-  height: 300px;
-  margin: 0;
+
+nav ul {
+    list-style:none;
+    margin:0px;
+    padding:10px; 
+}
+
+  nav ul li {
+    display:inline-block; 
+}
+
+  nav ul li a {
+    font-size: 0.95em;
+    text-decoration: none;
+    color: #FFF;
+    padding: 4px 10px;
+}
+  
+  nav ul li a:hover {
+    background-color: #B4531A; 
+}
+  
+
+#menu {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+}
+
+#principal {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.flex {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    float: center;
+}
+  
+.flex > div {
+    flex: 1 1 30%;
+    margin: 10px;
+}
+
+#lado {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+   
   
 }
 
 
-.rodape {
-  float: center;
-  background-color: darkgray;
-  text-align: center;
-
-
-  }
-
-.quadros {
-height: 400px;
-align-items: center; 
-display: flex;
-
+#rodape {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(90, 95, 94);
+    margin: 0 auto;
+    padding-top: 30px 30px;
+    float: center;
+    text-align: flex;
+    justify-content: space-around;
+    
+    
 }
 
+#quadrados {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex: 1 1 30%;
+    border: 1px #000;
+ 
+    
+    
+    
+
+}
