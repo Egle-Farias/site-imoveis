@@ -1,12 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro de clientes</title>
     <link rel="stylesheet" href="script.js">
+    <style>   
+    
+        body {
+            background-color: rgb(112, 121, 97);
+            color: white;
+            font: 11pt Tahoma;
+            height: 100%;
+            width: 60%;
+            margin: 0 auto;
+        }
+    </style>
+
 </head>
 <body>
-    
+    <h1>Cadastro de clientes</h1>
+    <form action="cadastro de clientes.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessais</legend>
+            <input id="textoNome" type="text" placeholder="Nome completo"><br>
+
+            <input id="textoCPF" type="text" placeholder="CPF"><br>
+            <input id="textoDataNascimento" type="text" placeholder="Data de nascimto"><br>
+            <input id="textoContato" type="text" placeholder="Contato"><br>
+            <input id="textoEmail" type="text" placeholder="E-mail"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <input id="textoRua" type="text" placeholder="Rua">
+            <input id="textoNumero" type="text" placeholder="Número">
+            <input id="textoComplemento" type="text" placeholder="Complemento">
+            <input id="textoBairro" type="text" placeholder="Bairro"><br>
+            <input id="textoCidade" type="text" placeholder="Cidade">
+            <input id="textoEstado" type="text" placeholder="Estado">
+        </fieldset>
+
+        <fieldset>
+            <legend>Perfil financeiro</legend>
+            <input id="dispoeEntrada" type="checkbox">Dispões de entrada?
+
+            <select id="listaSuspensa2" hidden>
+                <option value="2">Sim</option>
+                <option value="3">Não</option>
+              
+            </select>
+            <br>
+
+
+            <input id="textEntrada" type="text" placeholder="Valor para entrada?"><br>
+
+
+
+
+
+            <input id="textoFgts" type="text" placeholder="Dispõe de FGTS?"><br>
+            <input id="textoRendaBruta" type="text" placeholder="Renda bruta mensal?"><br>
+            <input id="textoTemFinanciamentoCaixa" type="text" placeholder="tem imóvel financiado pela caixa?"><br>
+            <input id="textoPrestaçaoIdeal" type="text" placeholder="Prastação mensal ideal?"><br>
+           
+        </fieldset>
+
+
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+
+    </form>
 </body>
 </html>
